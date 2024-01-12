@@ -225,7 +225,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/ingestion/ingest_qualifying_file",
+					"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/ingestion/ingest_results_file",
 					"baseParameters": {
 						"p_data_source": {
 							"value": "@variables('v_data_source')",
