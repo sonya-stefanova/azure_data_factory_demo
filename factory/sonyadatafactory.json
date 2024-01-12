@@ -1,0 +1,9 @@
+{
+	"name": "sonyadatafactory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2886f5f3-7900-4891-a7d8-f12dd7416f1a",
+		"tenantId": "4a06d40c-e447-42be-baef-dd0421ed10bd"
+	}
+}
