@@ -15,6 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().p_window_end_date",
+					"type": "Expression"
+				},
 				"folderPath": {
 					"value": "@formatDateTime(dataset().p_window_end_date, 'yyyy-MM-dd')",
 					"type": "Expression"
