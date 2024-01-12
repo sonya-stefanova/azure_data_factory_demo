@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Ingest Circuits File",
+				"name": "Ingest Races File",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
