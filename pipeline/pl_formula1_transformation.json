@@ -89,7 +89,7 @@
 								{
 									"activity": "Transform race results",
 									"dependencyConditions": [
-										"Skipped"
+										"Completed"
 									]
 								}
 							],

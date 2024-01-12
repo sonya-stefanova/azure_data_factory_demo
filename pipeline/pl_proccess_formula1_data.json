@@ -22,13 +22,20 @@
 				}
 			},
 			{
-				"name": "Execute Pipeline1_copy1",
+				"name": "Execute transformation",
 				"type": "ExecutePipeline",
-				"dependsOn": [],
+				"dependsOn": [
+					{
+						"activity": "Execute Pipeline1",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
 				"userProperties": [],
 				"typeProperties": {
 					"pipeline": {
-						"referenceName": "demo_pipeline",
+						"referenceName": "pl_formula1_transformation",
 						"type": "PipelineReference"
 					},
 					"waitOnCompletion": true,
