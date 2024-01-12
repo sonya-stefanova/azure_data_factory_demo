@@ -161,7 +161,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/trans/race_results",
+								"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/trans/calculated_race_results",
 								"baseParameters": {
 									"p_file_date": {
 										"value": "@formatDateTime(pipeline().parameters.p_window_end_date, 'yyyy-MM-dd')",
