@@ -1,0 +1,11 @@
+{
+	"name": "pl_proccess_formula1_data",
+	"properties": {
+		"parameters": {
+			"p_window_end_date": {
+				"type": "string"
+			}
+		},
+		"annotations": []
+	}
+}
