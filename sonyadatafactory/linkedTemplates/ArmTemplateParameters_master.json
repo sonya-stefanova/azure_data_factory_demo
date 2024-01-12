@@ -5,8 +5,14 @@
 		"factoryName": {
 			"value": "sonyadatafactory"
 		},
+		"ls_formula1_row_accountKey": {
+			"value": ""
+		},
 		"ls_databricks_project_properties_typeProperties_existingClusterId": {
 			"value": "1224-214018-wacvut3a"
+		},
+		"ls_formula1_row_properties_typeProperties_url": {
+			"value": "https://sonyadatalakestorage.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
