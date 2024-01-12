@@ -57,7 +57,7 @@
 					},
 					"ifTrueActivities": [
 						{
-							"name": "Ingest Circuits File_copy1",
+							"name": "Transform race results",
 							"type": "DatabricksNotebook",
 							"dependsOn": [],
 							"policy": {
