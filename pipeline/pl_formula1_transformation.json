@@ -83,9 +83,16 @@
 							}
 						},
 						{
-							"name": "Transform",
+							"name": "Transform drivers standings",
 							"type": "DatabricksNotebook",
-							"dependsOn": [],
+							"dependsOn": [
+								{
+									"activity": "Transform race results",
+									"dependencyConditions": [
+										"Skipped"
+									]
+								}
+							],
 							"policy": {
 								"timeout": "0.12:00:00",
 								"retry": 0,
@@ -95,7 +102,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/trans/race_results",
+								"notebookPath": "/Repos/sonyaharalambieva@students.softuni.bg/formula1_data_engineering_project/Formula1/trans/driver_stand",
 								"baseParameters": {
 									"p_file_date": {
 										"value": "@formatDateTime(pipeline().parameters.p_window_end_date, 'yyyy-MM-dd')",
