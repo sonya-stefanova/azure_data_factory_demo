@@ -1,6 +1,18 @@
 {
 	"name": "pl_proccess_formula1_data",
 	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"concurrency": 1,
 		"parameters": {
 			"p_window_end_date": {
 				"type": "string"
